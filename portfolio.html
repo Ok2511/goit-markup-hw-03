@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вебстудия</title>
+    <link rel="normalize" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto:wght@400;500;700;900&sidebar.open"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <!-- ШАПКА САЙТА -->
+    <header>
+      <nav class="navigation">
+        <a class="logo" lang="en" href="index.html"
+          ><span class="logo-web">Web</span>
+          <span class="logo-studio">Studio</span></a
+        >
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="index.html">Студия</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="portfolio.html">Портфолио</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="contacts">
+        <ul class="contacts-address-top">
+          <li class="contacts-address-top-mail">
+            <a
+              class="contacts-address-top-mail-link"
+              href="mailto:info@devstudio.com"
+              ><img src="./images/header/e-mail.svg" alt="info@devstudio.com" />
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-address-top-phone">
+            <a class="contacts-address-top-phone-link" href="tel:+380961111111"
+              ><img
+                src="./images/header/smartphone.svg"
+                alt="+38 096 111 11 11"
+              />
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
+
+    <main>
+      <section class="portfolio">
+        <h1 class="portfolio-title" hidden>Портфолио</h1>
+
+        <!-- Фильтры -->
+        <ul class="portfolio-filter">
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Все
+            </button>
+          </li>
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Веб-сайты
+            </button>
+          </li>
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Приложения
+            </button>
+          </li>
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Дизайн
+            </button>
+          </li>
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Маркетинг
+            </button>
+          </li>
+        </ul>
+
+        <!-- Проекты -->
+        <ul class="projects">
+          <li class="projects-1">
+            <img
+              src="./images/portfolio/technocriak.svg"
+              alt="Технокряк"
+              width="354"
+              height="294"
+            />
+            <p class="projects-1-text">
+              Технокряк это современная площадка распространения коронавируса.
+              Компании используют эту платформу для цифрового шпионажа и атак на
+              защищённые сервера конкурентов.
+            </p>
+            <h2 class="projects-title">Технокряк</h2>
+            <p class="projects-1-type">
+              Веб-сайт
+            </p>
+          </li>
+          <li class="projects-2">
+            <img
+              src="./images/portfolio/poster.svg"
+              alt="Постер"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">
+              Постер <span lang="en">New Orlean vs Golden ...</span>
+            </h2>
+            <p class="projects-2-type">
+              Дизайн
+            </p>
+          </li>
+          <li class="projects-3">
+            <img
+              src="./images/portfolio/seafood.svg"
+              alt="Ресторан"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">
+              Ресторан <span lang="en">Seafood</span>
+            </h2>
+            <p class="projects-3-type">
+              Приложение
+            </p>
+          </li>
+          <li class="projects-4">
+            <img
+              src="./images/portfolio/prime.svg"
+              alt="Проект Prime"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">Проект <span lang="en">Prime</span></h2>
+            <p class="projects-4-type">
+              Маркетинг
+            </p>
+          </li>
+          <li class="projects-5">
+            <img
+              src="./images/portfolio/boxes.svg"
+              alt="Проект Boxes"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">Проект <span lang="en">Boxes</span></h2>
+            <p class="projects-5-type">
+              Приложение
+            </p>
+          </li>
+          <li class="projects-6">
+            <img
+              src="./images/portfolio/borders.svg"
+              alt="Inspiration has no Borders"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title" lang="en">Inspiration has no Borders</h2>
+            <p class="projects-6-type">Веб-сайт</p>
+          </li>
+          <li class="projects-7">
+            <img
+              src="./images/portfolio/book.svg"
+              alt="Издание Limited Edition"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">
+              Издание <span lang="en">Limited Edition</span>
+            </h2>
+            <p class="projects-7-type">Дизайн</p>
+          </li>
+          <li class="projects-8">
+            <img
+              src="./images/portfolio/lab.svg"
+              alt="Проект LAB"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">Проект <span lang="en">LAB</span></h2>
+            <p class="projects-8-type">Маркетинг</p>
+          </li>
+          <li class="projects-9">
+            <img
+              src="./images/portfolio/business.svg"
+              alt="Growing Business"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title" lang="en">Growing Business</h2>
+            <p class="projects-9-type">Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <a class="logo" lang="en" href="index.html">
+          <span class="logo-web">Web</span>
+          <span class="logo-studio-footer">Studio</span></a
+        >
+
+        <address class="contacts">
+          <ul class="contacts-address">
+            <li class="contacts-address-post">
+              <a
+                class="contacts-address-post-link"
+                href="https://goo.gl/maps/3ij2VeBkMau9dHrEA"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="contacts-address-mail">
+              <a
+                class="contacts-address-mail-link"
+                href="mailto:info@example.com"
+                ><img src="./images/header/e-mail.svg" alt="info@example.com" />
+                info@example.com</a
+              >
+            </li>
+            <li class="contacts-address-phone">
+              <a class="contacts-address-phone-link" href="tel:+380961111111"
+                ><img
+                  src="./images/header/smartphone.svg"
+                  alt="+38 096 111 11 11"
+                />
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <div>
+        <b class="text-footer">присоединяйтесь</b>
+        <ul>
+          <li>
+            <a href=""
+              ><img
+                src="./images/command/instagram.svg"
+                alt="Логотип Инстаграм"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="./images/command/twitter.svg" alt="Логотип Твиттер"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="./images/command/facebook.svg" alt="Логотип Фейсбук"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="./images/command/linkedin.svg" alt="Логотип Линкедин"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
