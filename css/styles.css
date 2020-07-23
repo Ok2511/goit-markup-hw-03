@@ -2,9 +2,28 @@ ul {
   list-style: none;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
+  width: 768px;
+  height: 3020px;
   background: #ffffff;
   font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 768px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
 }
 
 button {
@@ -17,6 +36,10 @@ a {
 
 footer {
   background: #2f303a;
+  width: 768px;
+  height: 463px;
+  left: 0px;
+  top: 2557px;
 }
 
 .logo .logo-web {
@@ -161,6 +184,51 @@ footer {
   background: #757575;
 }
 
+.social-link {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 0 0;
+  margin: 0px;
+}
+
+.social-link-item {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link-item:last-child {
+  margin-right: 0px;
+}
+
+.social-link-item: hover,
+.social-link-item: focus {
+  background: #2196f3;
+  color: #2196f3;
+}
+
+.hero-section {
+  width: 768px;
+  height: 400px;
+  left: 0px;
+  top: 80px;
+  background: #757575;
+}
+
+.hero-section-group {
+  width: 360px;
+  height: 164px;
+  left: 204px;
+  top: 198px;
+  background: #757575;
+}
+
 .hero-section-heading {
   font-family: Roboto;
   font-style: normal;
@@ -180,9 +248,9 @@ footer {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  margin-right: 284px;
+  margin-bottom: 118px;
+  margin-left: 284px;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
@@ -297,11 +365,54 @@ footer {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 15px;
   color: #212121;
+}
+
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 0 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.customers-item-link {
+  display: flex;
+  width: 226px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+<!--- .customers-item-link:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.customers-item-link:nth-child(2n + 1) {
+  margin-left: 0px;
+}
+
+.customers-item-link:nth-child(n + 4) {
+  margin-bottom: 0px;
+}
+--->
+
+.customers-item-link: hover,
+.customers-item-link: focus {
+  background: #2196f3;
+  color: #2196f3;
+  border: 1px solid #2196f3;
 }
 
 .portfolio-filter-button {
