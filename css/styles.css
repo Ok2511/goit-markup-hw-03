@@ -20,6 +20,9 @@ body {
 }
 
 header {
+  display: flex;
+
+  justify-content: space-between;
   width: 768px;
   height: 80px;
   left: 0px;
@@ -40,6 +43,33 @@ footer {
   height: 463px;
   left: 0px;
   top: 2557px;
+}
+
+.navigation {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 4px;
+  
+} 
+.logo {
+  display: flex;
+  width: 141px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 26px;
+  margin-right: 15px;
+  margin-bottom: 26px;
+  margin-left: 15px;
+
+}
+
+.logo-footer {
+  display: flex;
+  width: 154px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo .logo-web {
@@ -77,6 +107,24 @@ footer {
   color: #2196f3;
 }
 
+.navigation-list {
+  display: flex;
+  width: 294px;
+  height: 48px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 0px;
+} 
+
+.navigation-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+
+}
+
 .navigation-list-item .navigation-list-link {
   font-family: Roboto;
   font-style: normal;
@@ -90,6 +138,13 @@ footer {
 .navigation-list-link:hover,
 .navigation-list-link:focus {
   color: #2196f3;
+}
+
+.contacts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+    margin-right: 15px;
 }
 
 .contacts-address-top-mail .contacts-address-top-mail-link {
@@ -106,6 +161,7 @@ footer {
 .contacts-address-top-mail-link:focus {
   color: #2196f3;
 }
+
 
 .contacts-address-top-phone .contacts-address-top-phone-link {
   font-family: Roboto;
@@ -171,7 +227,29 @@ footer {
   color: #2196f3;
 }
 
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 768px;
+  height: 463px;
+  left: 0px;
+  background: #2F303A;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .text-footer {
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+  justify-content: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -214,46 +292,59 @@ footer {
 }
 
 .hero-section {
+  display: flex;
   width: 768px;
   height: 400px;
+  align-items: center;
+  justify-content: center;
   left: 0px;
-  top: 80px;
   background: #757575;
 }
 
 .hero-section-group {
+  display: inline;
   width: 360px;
   height: 164px;
-  left: 204px;
-  top: 198px;
+  align-items: center;
+  justify-content: center;
   background: #757575;
 }
 
 .hero-section-heading {
+  display: flex;
+  width: 360px;
+  height: 84px;
+  align-items: center;
+  justify-content: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 26px;
-  line-height: 1.62;
+  line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0px;
   color: #ffffff;
   background: #757575;
 }
 
 .hero-section-button {
+  display: inline;
+  width: 136px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid #2196f3;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  margin-right: 284px;
-  margin-bottom: 118px;
-  margin-left: 284px;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
+  padding: 0px; 
 }
 
 .features-link {
