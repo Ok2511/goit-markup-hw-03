@@ -70,8 +70,8 @@ footer {
   height: 28px;
   align-items: center;
   justify-content: center;
-}
-
+ 
+  
 .logo .logo-web {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -265,7 +265,7 @@ footer {
 .social-link {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 0 0 0;
+  padding: 0px;
   margin: 0px;
 }
 
